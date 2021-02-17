@@ -80,9 +80,9 @@ function App() {
   return (
     <div className="app" style={{ backgroundImage: `url(${image})` }}>
       <div className="app__container">
-        <div className="app__info app__left">
-          <h1>Our weather app</h1>
+        <h1>Our weather app</h1>
 
+        <div className="app__info app__left">
           <h3>Your magic numbers: {magicNumbers.join(", ")}</h3>
           <h4>The total of the magic numbers: {totalOfMagicNumbers}</h4>
 
